@@ -1,25 +1,25 @@
 # ML-Based Intrusion Detection System (IDS)
 
-## 🔒 Overview
-This project uses **machine learning** to detect anomalous and malicious network behavior.  
-The goal is to build an intelligent IDS that can identify suspicious traffic patterns in real-time.
+## Overview
+This project applies machine learning techniques to detect anomalous and malicious network behavior.  
+The objective is to build an intelligent IDS capable of identifying suspicious traffic patterns in real time.
 
-## ✨ Features
-- Data preprocessing of network traffic (NSL-KDD, CICIDS datasets)
-- Supervised and unsupervised ML models (Random Forest, Isolation Forest, etc.)
+## Features
+- Preprocessing of network traffic datasets (NSL-KDD, CICIDS)
+- Supervised and unsupervised models (Random Forest, Isolation Forest, etc.)
 - Detection of DoS, Probe, U2R, and R2L attacks
 - Evaluation metrics: Accuracy, Precision, Recall, F1-score
-- Modular pipeline for easy experimentation
+- Modular pipeline for experimentation
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python, Scikit-learn, Pandas, NumPy
 - Jupyter Notebooks
-- (Optional) TensorFlow / PyTorch for deep learning
+- Optional: TensorFlow or PyTorch
 
-## 🚀 Future Enhancements
+## Future Work
 - Real-time detection with Kafka + Spark
 - Visualization dashboard with Streamlit
-- Auto-update model with online learning
+- Auto-updating models with online learning
 
-## 📌 Status
-🚧 In Progress – building baseline ML classifier
+## Status
+In progress – baseline ML classifiers under development
