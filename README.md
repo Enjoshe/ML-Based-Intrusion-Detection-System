@@ -1,25 +1,16 @@
 # ML-Based Intrusion Detection System (IDS)
 
 ## Overview
-This project applies machine learning techniques to detect anomalous and malicious network behavior.  
-The objective is to build an intelligent IDS capable of identifying suspicious traffic patterns in real time.
+A modular, production-minded baseline ML pipeline for intrusion detection:
+- Load or synthesize labeled traffic features.
+- Feature processing with scaler persistence.
+- Train RandomForest baseline and save artifacts.
+- Evaluate with classification report, confusion matrix, and ROC/AUC.
+- Predict utility for single-sample scoring.
 
-## Features
-- Preprocessing of network traffic datasets (NSL-KDD, CICIDS)
-- Supervised and unsupervised models (Random Forest, Isolation Forest, etc.)
-- Detection of DoS, Probe, U2R, and R2L attacks
-- Evaluation metrics: Accuracy, Precision, Recall, F1-score
-- Modular pipeline for experimentation
-
-## Tech Stack
-- Python, Scikit-learn, Pandas, NumPy
-- Jupyter Notebooks
-- Optional: TensorFlow or PyTorch
-
-## Future Work
-- Real-time detection with Kafka + Spark
-- Visualization dashboard with Streamlit
-- Auto-updating models with online learning
-
-## Status
-In progress – baseline ML classifiers under development
+## Quickstart (local)
+1. Create and activate a virtual environment:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
